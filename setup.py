@@ -5,9 +5,9 @@ setup(
     version="0.1",
     author="Prasshant Shanmugalingam",  # Replace with your name
     description="A Simple env file parser",
-    # long_description=open('README.md').read(),
-    # long_description_content_type='text/markdown',
-    # url="https://github.com/yourusername/my_package",  
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url="https://github.com/yourusername/my_package",  
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
