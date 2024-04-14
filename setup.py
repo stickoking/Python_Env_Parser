@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="py_env_parser",
+    name="py_env_parser_light",
     version="0.1",
     author="Prasshant Shanmugalingam",  # Replace with your name
     description="A Simple env file parser",

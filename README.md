@@ -17,11 +17,11 @@ Remember to always keep your `.env` file out of version control to avoid exposin
 You can install the package using pip:
 
 
-pip install py_env_parser
+pip install py_env_parser_light
 
 # Usage
 
-from py_env_parser import EnvironmentController
+from py_env_parser_light import EnvironmentController
 
 ### Create an instance of the controller
 controller = EnvironmentController()
