@@ -26,8 +26,5 @@ from py_env_parser_light import EnvironmentController
 ### Create an instance of the controller
 controller = EnvironmentController()
 
-### Parse the .env file
-env_vars = controller.parse_env_file('.env')
-
-### Now you can access your environment variables
-print(env_vars['MY_VARIABLE'])
+### Parse the .env file and access environment variables
+env_vars = controller.parse_env_file('.env')['MY_VARIABLE']
