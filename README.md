@@ -1,6 +1,6 @@
-# Environment Controller
+# Py Env Parser Light
 
-`EnvironmentController` is a Python class designed to manage environment variables for your application. It provides a simple and efficient way to parse and handle environment variables from a `.env` file.
+A Python package designed to manage environment variables for your application. It provides a simple and efficient way to parse and handle environment variables from a `.env` file.
 
 ## Features
 
