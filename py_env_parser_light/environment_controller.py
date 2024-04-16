@@ -3,7 +3,7 @@ class EnvironmentController:
         pass
 
     def parse_env_file(self, env_file_path: str) -> dict[str, str]:
-        env_vars = {}
+        env_vars: dict[str, str] = {}
         with open(env_file_path, 'r') as file:
             for line in file:
                 # Skip lines that start with a comment
